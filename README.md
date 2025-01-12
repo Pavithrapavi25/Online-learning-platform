@@ -68,3 +68,7 @@ Discussion Forums: Integrate forums or discussion boards for students to ask que
 Live Streaming: Implement live streaming for instructor-led sessions or webinars.
 Gamification: Add achievement badges, leaderboards, and progress milestones to increase engagement.
 Advanced Analytics: Provide detailed analytics for students and instructors (e.g., performance reports, content engagement).
+
+Output of the project:
+![Screenshot 2025-01-12 151736](https://github.com/user-attachments/assets/361bd8d4-7977-4631-96f7-6cee0e7bc277)
+![Screenshot 2025-01-12 151753](https://github.com/user-attachments/assets/8661d34a-0940-400c-a8cc-eeb87ee3d8f4)
