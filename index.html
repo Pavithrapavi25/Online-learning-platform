@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online Learning Platform</title> 
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Welcome to the Online Learning Platform</h1>
+  </header>
+
+  <div class="courses-container">
+    <h2>Available Courses</h2>
+    <div id="courses-list"></div>
+  </div>
+
+  <!-- Progress Bar Container -->
+  <div class="progress-container">
+    <div class="progress-bar" id="progress-bar"></div>
+  </div>
+  <div class="progress-text" id="progress-text">Progress: 0%</div>
+
+  <div id="video-player-container" class="video-container" style="display:none;">
+    <h2>Watch the Lesson</h2>
+    <iframe id="video-player" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <div id="quiz-container" class="quiz-container" style="display:none;">
+    <h2>Quiz</h2>
+    <div id="quiz-questions"></div>
+    <button id="submit-quiz">Submit Quiz</button>
+  </div>
+  <div id="login-container" class="login-container">
+    <h2>Login</h2>
+    <form id="login-form">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <button type="submit">Login</button>
+    </form>
+    <p id="error-message" style="color: red; display: none;">Invalid username or password.</p>
+  </div>
+  <button id="logout-btn" style="display:none;">Logout</button>
+  
+  
+    
+  <script src="script.js"></script>
+</body>
+</html>
